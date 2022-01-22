@@ -1,0 +1,7 @@
+interface Main {
+    int mueve(int iJuan, int jJuan);
+};
+
+interface torre {
+    void juega(int n, int m, int iJuan, int jJuan, int iTapia, int jTapia);
+};
