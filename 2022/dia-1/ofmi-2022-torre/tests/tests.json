@@ -1,0 +1,70 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionC.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/partial_subebaja.cpp",
+      "verdict": "PA",
+      "score_range": [0.7, 0.7]
+    },
+    {
+      "filename": "../solutions/partial_techo.cpp",
+      "verdict": "PA",
+      "score_range": [0.7, 0.7]
+    },
+    {
+      "filename": "../solutions/partial_baja_mal_techo.cpp",
+      "verdict": "PA",
+      "score_range": [0.7, 0.7]
+    },
+    {
+      "filename": "../solutions/partial_cuadrado.cpp",
+      "verdict": "PA",
+      "score_range": [0.7, 0.7]
+    },
+    {
+      "filename": "../solutions/partial_estrategia_mal_Juan.cpp",
+      "verdict": "PA",
+      "score_range": [0.72, 0.72]
+    },
+    {
+      "filename": "../solutions/subtask2_estrategia_Juan.cpp",
+      "verdict": "PA",
+      "score_range": [0.7, 0.7]
+    },
+    {
+      "filename": "../solutions/subtask1_perseguir_greedy.cpp",
+      "verdict": "TLE",
+      "score_range": [0.2, 0.2]
+    },
+    {
+      "filename": "../solutions/partial_ciclo.cpp",
+      "verdict": "TLE",
+      "score_range": [0.2, 0.2]
+    },
+    {
+      "filename": "../solutions/partial_invalido_techo.cpp",
+      "verdict": "PA",
+      "score_range": [0.17, 0.2]
+    },
+    {
+      "filename": "../solutions/TLE_perseguir_sin_paridad.cpp",
+      "verdict": "TLE",
+      "score_range": [0, 0]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}

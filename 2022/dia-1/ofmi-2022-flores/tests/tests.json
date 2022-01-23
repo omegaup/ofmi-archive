@@ -1,0 +1,60 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionC.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/partial_78pts_entrada_salida_siempre_validas.cpp",
+      "score_range": [0.78, 0.78]
+    },
+    {
+      "filename": "../solutions/subtask_1_bfs.cpp",
+      "score_range": [0.1, 0.1]
+    },
+    {
+      "filename": "../solutions/partial_6pts_menos_1.cpp",
+      "score_range": [0.06, 0.06]
+    },
+    {
+      "filename": "../solutions/subtask_2_greedy_rangos.cpp",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/subtask_2_mover_derecha.cpp",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/subtask_2_mover_derecha_optimizada.cpp",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/subtask_2_union_find.cpp",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/subtask_2_unir_rangos.cpp",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/subtask_1_y_2_parche.cpp",
+      "score_range": [0.4, 0.4]
+    },
+    {
+      "filename": "../solutions/partial_20pts_unir_rangos.cpp",
+      "score_range": [0.2, 0.2]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}
