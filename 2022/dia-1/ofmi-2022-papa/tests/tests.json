@@ -1,0 +1,48 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB_constante.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionC.py",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solution_casos_a_mano.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/partial_lorena.py",
+      "score_range": [0.07, 0.07]
+    },
+    {
+      "filename": "../solutions/partial_maeva.py",
+      "score_range": [0.07, 0.07]
+    },
+    {
+      "filename": "../solutions/partial_ramona.py",
+      "score_range": [0.07, 0.07]
+    },
+    {
+      "filename": "../solutions/partial_maximo_todas.cpp",
+      "score_range": [0, 0.2]
+    },
+    {
+      "filename": "../solutions/partial_minimo_todas.cpp",
+      "score_range": [0, 0.2]
+    },
+    {
+      "filename": "../solutions/partial_mediana_todas.cpp",
+      "score_range": [0, 0.2]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}

@@ -1,0 +1,44 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/partial_10pts_ultima_silaba_incompleta.cpp",
+      "score_range": [0.1, 0.1]
+    },
+    {
+      "filename": "../solutions/partial_subtask_1_3_parche.cpp",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/subtask_1_una_palabra.cpp",
+      "score_range": [0.1, 0.1]
+    },
+    {
+      "filename": "../solutions/subtask_2_terminacion_vocal.cpp",
+      "score_range": [0.1, 0.14]
+    },
+    {
+      "filename": "../solutions/subtask_3_vocales_separadas.cpp",
+      "score_range": [0.29, 0.29]
+    },
+    {
+      "filename": "../solutions/partial_4pts_sin_chems.cpp",
+      "score_range": [0.04, 0.04]
+    },
+    {
+      "filename": "../solutions/partial_4pts_sin_chems.py",
+      "score_range": [0.04, 0.04]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}
