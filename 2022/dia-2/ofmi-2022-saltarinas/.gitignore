@@ -1,0 +1,4 @@
+testplan-gen.py
+.vscode
+**/*.out
+!tests/invalid-cases/*.out

@@ -1,0 +1,40 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.py",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionC.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/partial_48pts_compleja.cpp",
+      "score_range": [0.48, 0.48]
+    },
+    {
+      "filename": "../solutions/subtask_4_si_es_posible_llegar.py",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/partial_6pts_menos_1.cpp",
+      "score_range": [0.06, 0.06]
+    },
+    {
+      "filename": "../solutions/partial_6pts_distancia.cpp",
+      "score_range": [0.06, 0.06]
+    },
+    {
+      "filename": "../solutions/partial_6pts_diagonal.cpp",
+      "score_range": [0.06, 0.06]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}
