@@ -1,0 +1,48 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/subtask4_binaria.cpp",
+      "score_range": [0.3, 0.8]
+    },
+    {
+      "filename": "../solutions/subtask4_binaria_alternativa.cpp",
+      "score_range": [0.3, 0.8]
+    },
+    {
+      "filename": "../solutions/subtask1_simulacion_individual.cpp",
+      "score_range": [0.1, 0.1]
+    },
+    {
+      "filename": "../solutions/subtask1_simulacion_individual_optimizada.cpp",
+      "score_range": [0.1, 0.1]
+    },
+    {
+      "filename": "../solutions/subtask2_simulacion_conjunto.cpp",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/subtask2_simulacion_binaria.cpp",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/subtask3_binaria.cpp",
+      "score_range": [0.3, 0.5]
+    },
+    {
+      "filename": "../solutions/subtask2_y_4_binaria_parche.cpp",
+      "score_range": [0.3, 0.8]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}

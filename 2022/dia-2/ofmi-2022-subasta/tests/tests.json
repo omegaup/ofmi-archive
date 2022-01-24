@@ -1,0 +1,44 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/subtask1_manual.cpp",
+      "score_range": [0.23, 0.23]
+    },
+    {
+      "filename": "../solutions/subtask2_maxima_puja.cpp",
+      "score_range": [0.38, 0.38]
+    },
+    {
+      "filename": "../solutions/partial_ultimas_cobayas.cpp",
+      "score_range": [0.18, 0.18]
+    },
+    {
+      "filename": "../solutions/partial_ganador_1.cpp",
+      "score_range": [0.12, 0.12]
+    },
+    {
+      "filename": "../solutions/partial_ganador_2.cpp",
+      "score_range": [0.06, 0.06]
+    },
+    {
+      "filename": "../solutions/argmax.cpp",
+      "score_range": [0.38, 0.38]
+    },
+    {
+      "filename": "../solutions/argmax2.cpp",
+      "score_range": [0.23, 0.23]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}
