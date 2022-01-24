@@ -35,6 +35,19 @@ Un entero con el número mínimo de movimientos de peón que necesitas para llev
 
 ||examplefile
 sample.sub5.0
+||description
+Se realizan los siguientes movimientos:
+
+- El peón negro de la segunda columna avanza a la posición (5, 2) en dos movimientos.
+- El peón blanco captura al peón negro de la segunda columna con un movimiento, llegando a (5, 2).
+- El peón negro de la tercer columna avanza a la posición (4, 3) en dos movimientos.
+- El peón blanco captura al peón negro de la tercer columna con un movimiento, llegando a (4, 3).
+- El peón negro de la cuarta columna avanza a la posición (3, 4) en dos movimientos.
+- El peón blanco captura al peón negro de la cuarta columna con un movimiento (3, 4).
+- El peón blanco captura al peón negro de la quinta columna en un movimiento, llegando a (2, 5).
+- El peón blanco se mueve hacía adelante con un movimiento llegando a la posición final (1, 5).
+
+En total se realizaron $2+1+2+1+2+1+1+1 = 11$ movimientos, que es la mínima cantidad posible para este caso.
 ||end
 
 # Límites
