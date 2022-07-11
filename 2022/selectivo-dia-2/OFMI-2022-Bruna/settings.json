@@ -1,0 +1,35 @@
+{
+  "title": "Bruna",
+  "source": "OFMI 2022 (Héctor Fernando Ricárdez Lara)",
+
+  "limits": {
+    "TimeLimit": 5000,
+    "MemoryLimit": 134217728,
+    "InputLimit": 67108864,
+    "OutputLimit": 67108864,
+    "ExtraWallTime": 5000,
+    "OverallWallTimeLimit": 60000
+  },
+
+  "validator": {
+    "name": "literal",
+    "limits": {
+      "TimeLimit": 1500
+    },
+    "GroupScorePolicy": "min"
+  },
+
+  "interactive": {
+    "ModuleName": "bruna",
+    "ParentLang": "cpp17-gcc"
+  },
+
+  "misc": {
+    "alias": "ofmi-2022-bruna",
+    "visibility": "public",
+    "languages": "all",
+    "email_clarifications": 0,
+    "admin-groups": ["ofmi-2022"],
+    "group_score_policy": "min"
+  }
+}

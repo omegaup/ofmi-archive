@@ -1,0 +1,36 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/partial_10pts_queries_comprimidas.cpp",
+      "score_range": [0.1, 0.1]
+    },
+    {
+      "filename": "../solutions/subtask_1_X_1.cpp",
+      "score_range": [0.1, 0.1]
+    },
+    {
+      "filename": "../solutions/subtask_2_update_al_inicio.cpp",
+      "score_range": [0.1, 0.1]
+    },
+    {
+      "filename": "../solutions/partial_30pts_padre_actualiza_hijos.cpp",
+      "score_range": [0.3, 0.3]
+    },
+    {
+      "filename": "../solutions/subtask_5_lista.cpp",
+      "score_range": [0.4, 0.4]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}
