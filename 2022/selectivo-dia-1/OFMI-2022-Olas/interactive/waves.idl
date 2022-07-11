@@ -1,0 +1,5 @@
+interface Main {};
+
+interface waves {
+  int waves([Range(1, 100)] int n, int k, int[n] A);
+};

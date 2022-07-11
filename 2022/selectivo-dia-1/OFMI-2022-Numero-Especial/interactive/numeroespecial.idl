@@ -1,0 +1,5 @@
+interface Main {};
+
+interface numeroespecial {
+  long numeroEspecial(long n, long m, long k);
+};
