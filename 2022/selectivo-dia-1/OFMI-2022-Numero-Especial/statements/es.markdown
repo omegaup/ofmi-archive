@@ -6,7 +6,7 @@ Dado los valores de $n$, $m$ y $k$, encuentra el número especial de Tapia y su 
 
 # Entrada
 
-Deberás implementar una función `int numeroEspecial(int n, int m, int k)` que reciba los tres enteros $n$, $m$ y $k$ como parámetros y regrese el número especial de Tapia y su cobaya, este es, el $n$-ésimo número a partir de $m$ que no sea divisible por $k$.
+Deberás implementar una función `int numeroEspecial(int n, int m, int k)` que reciba los tres enteros $n$, $m$ y $k$ como parámetros y regrese el número especial de Tapia y su cobaya, este es, el $n$-ésimo número a partir de $m$ que no sea divisible por $k$. 
 
 # Ejemplos
 

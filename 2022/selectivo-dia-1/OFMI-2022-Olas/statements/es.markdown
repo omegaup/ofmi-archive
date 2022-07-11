@@ -8,7 +8,7 @@ Tu tarea es realizar a lo más $k$ operaciones para que el arreglo tenga la meno
 
 Deberás implementar la función `int waves(int n, int k, int A[])`, que recibe el tamaño del arreglo $n$, la cantidad máxima de operaciones con las que cuentas $k$, y el arreglo de enteros $A$.
 
-La función debe regresar la mínima cantidad de caídas en el arreglo después de realizar a lo más $k$ operaciones.
+La función debe regresar la mínima cantidad de caídas en el arreglo después de realizar a lo más $k$ operaciones. 
 
 # Ejemplos
 

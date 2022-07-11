@@ -7,7 +7,7 @@ Tu objetivo es lograr que la suma de cada fila y de cada columna en la matriz se
 
 # Implementación
 
-Deberás implementar la función `void matrizSumaSemipositiva(int N, int M, int matriz[][100])` que recibe como parámetros $N$, $M$ que indican que el tamaño de la matriz es de $N \times M$ y una matriz de tamaño $N \times 100$.
+Deberás implementar la función `void matrizSumaSemipositiva(int N, int M, int matriz[][100])` que recibe como parámetros $N$, $M$ que indican que el tamaño de la matriz es de $N \times M$ y una matriz de tamaño $N \times 100$. 
 
 **Nota**: La matriz tendrá tamaño `N`x`100` por cuestiones técnicas, pero realmente sólo tendrán valores las primeras $M$ columnas.
 
