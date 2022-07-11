@@ -26,7 +26,7 @@
 
   "misc": {
     "alias": "ofmi-2022-bruna",
-    "visibility": "private",
+    "visibility": "public",
     "languages": "all",
     "email_clarifications": 0,
     "admin-groups": ["ofmi-2022"],
