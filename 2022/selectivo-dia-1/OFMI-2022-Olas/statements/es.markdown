@@ -1,6 +1,6 @@
 Tienes un arreglo de $n$ enteros, en una operacion puedes cambiar el valor de cualquier elemento del arreglo a cualquier otro valor entero.
 
-Se dice que hay una caida en la posicion $i$ del arreglo ($i \lt n - 1$) si se cumple que $A_i \gt A_{i + 1}$.
+Se dice que hay una caída en la posicion $i$ del arreglo ($i \lt n - 1$) si se cumple que $A_i \gt A_{i + 1}$.
 
 Tu tarea es realizar a lo más $k$ operaciones para que el arreglo tenga la menor cantidad de caídas.
 
@@ -15,7 +15,7 @@ La función debe regresar la mínima cantidad de caídas en el arreglo después 
 ||examplefile
 sample
 ||description
-Usando las operaciones en el $5$ y el $2$ se obtiene el arreglo $\left[3, 4, 4, 4, 4, 4\right]$ el cual tiene $0$ caidas.
+Usando las operaciones en el $5$ y el $2$ se obtiene el arreglo $\left[3, 4, 4, 4, 4, 4\right]$ el cual tiene $0$ caídas.
 ||end
 
 # Límites
