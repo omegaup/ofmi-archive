@@ -1,4 +1,4 @@
-Tapia y su cobaya son matemáticos y como todo matemático, tienen una definición curiosa para números especiales. En particular, dados 3 números $n$, $m$ y $k$, Tapia y su cobaya afirman que el $n$-ésimo número empezando a contar en $m$ que **no** sea divisible por $k$ es un número especial.
+Tapia y su cobaya son matemáticos y como todo matemático tienen una definición curiosa para números especiales. En particular, dados 3 números $n$, $m$ y $k$, Tapia y su cobaya afirman que el $n$-ésimo número empezando a contar en $m$ que **no** sea divisible por $k$ es un número especial.
 
 # Problema
 

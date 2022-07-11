@@ -1,0 +1,28 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/caracteres_inexistentes.cpp",
+      "verdict": "WA"
+    },
+    {
+      "filename": "../solutions/sub1.cpp",
+      "score_range": [0.25, 0.25]
+    },
+    {
+      "filename": "../solutions/sub2.cpp",
+      "score_range": [0.45, 0.45]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}

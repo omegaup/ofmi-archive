@@ -20,7 +20,7 @@ Para cambiar de signo una columna de la matriz, tu función deberá llamar a la 
 ||examplefile
 sample
 ||description
-Aplicando la operación `cambiarColumna(1)` tendremos la matriz [[-2, 3, 4], [3, 5, 2]] cuyas filas y columnas suman positivo.
+Aplicando la operación `cambiarColumna(1)` tenemos la matriz [[-2, 3, 4], [3, 5, 2]] cuyas filas y columnas suman positivo.
 ||end
 
 # Límites
