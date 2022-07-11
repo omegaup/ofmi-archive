@@ -1,0 +1,33 @@
+{
+  "title": "Olas",
+  "source": "OFMI 2022 (Diego Briaares)",
+
+  "limits": {
+    "TimeLimit": 1000,
+    "MemoryLimit": 134217728,
+    "InputLimit": 67108864,
+    "OutputLimit": 67108864,
+    "ExtraWallTime": 0,
+    "OverallWallTimeLimit": 60000
+  },
+
+  "validator": {
+    "name": "literal",
+    "limits": {
+      "TimeLimit": 1000
+    }
+  },
+
+  "interactive": {
+    "ModuleName": "waves",
+    "ParentLang": "cpp17-gcc"
+  },
+
+  "misc": {
+    "alias": "OFMI-2022-Olas",
+    "visibility": "public",
+    "languages": "all",
+    "email_clarifications": 0,
+    "admin-groups": ["ofmi-2022"]
+  }
+}
