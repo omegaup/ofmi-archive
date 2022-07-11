@@ -1,0 +1,5 @@
+interface Main {};
+
+interface frekuencias {
+  int frekuencia([Range(1, 100000)] int N, char[N] C);
+};

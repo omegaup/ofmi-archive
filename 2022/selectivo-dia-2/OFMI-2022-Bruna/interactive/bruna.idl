@@ -1,0 +1,9 @@
+interface Main {};
+
+interface bruna {
+  [NoReturn] void familiaBruna([Range(1, 100000)] int N, int[N] mama);
+
+  [NoReturn] void depositarDinero(int i, int X);
+
+  long checarCuenta(int i);
+};

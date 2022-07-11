@@ -1,0 +1,5 @@
+interface Main {};
+
+interface viajecobayas {
+  int viajeCobayas([Range(1, 200)] int N, [Range(1, 200)] int M, int[N][200] matriz, int r1, int c1, int r2, int c2);
+};
