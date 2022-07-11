@@ -1,0 +1,8 @@
+interface Main {
+    void cambiaFila(int fila);
+    void cambiaColumna(int columna);
+};
+
+interface matrizsumasemipositiva {
+    [NoReturn] void matrizSumaSemipositiva([Range(1, 100)] int N, [Range(1, 100)] int M, int[N][100] matriz);
+};
