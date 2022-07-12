@@ -6,6 +6,8 @@ Para moverse dentro de la ciudad de las cobayas hay que considerar lo siguiente:
 - Boni puede dar 1 paso a cualquier casilla que tenga el mismo número que el que tiene su posición actual.
 - Boni no puede llegar a una casilla que tenga un $-1$.
 
+# Problema
+
 Ayuda a Boni a llegar en la menor cantidad de pasos a donde se encuentra Facia. En caso de que Boni no pueda llegar con Facia, debes regresar $-1$.
 
 # Implementación

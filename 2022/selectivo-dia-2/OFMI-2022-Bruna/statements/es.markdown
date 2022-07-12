@@ -6,9 +6,9 @@ Tu tarea es que conociendo la estructura de esta familia, les ayudes a hacer cue
 
 Tendrás que procesar $Q$ operaciones. Hay 2 tipos de operaciones:
 
-1. Tienes 2 enteros $i$ y $X$, que indican que la miembro $i$ recibió $X$ pesos.
+1. Depositar Dinero $i$ y $X$, que indican que la miembro $i$ recibió $X$ pesos.
 
-2. Tienes 1 entero $i$, debes imprimir cuánto dinero tiene la miembro $i$ en este momento.
+2. Checar Cuenta $i$, debes regresar cuánto dinero tiene la miembro $i$ en este momento.
 
 Al inicio del problema, nadie tiene dinero.
 

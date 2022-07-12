@@ -4,7 +4,9 @@ Definimos la Frekuencia de una lista de colores como la diferencia entre la frec
 
 Por ejemplo, la frekuencia de `abacaba` es $4-1=3$, pues el color `a` se repite 4 veces y el color `c` 1 vez.
 
-El problema es, dada una lista de los colores de las cobayas, encontrar la mayor frekuencia entre todos los posibles subrangos de la lista.
+# Problema
+
+Dada una lista de los colores de las cobayas, encontrar la mayor frekuencia entre todos los posibles subrangos de la lista.
 
 # Implementación
 
