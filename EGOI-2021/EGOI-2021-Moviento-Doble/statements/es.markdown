@@ -11,7 +11,6 @@ Este es un ejemplo de la primera fase para $n = 3$:
 3. Alice: "Voy a tomar la piedra 3 o la piedra 2"
 4. Bob: "Voy a tomar la piedra 1 o la piedra 3"
 
-
 En la segunda fase, para cada una de las $n + 1$ declaraciones, Claire elige una de las dos opciones diciendo "primero" o "segundo". Llamaremos a cada secuencia de elecciones hechas por Claire un _escenario_. Nota que existen exactamente $2 · 2 · 2 ... 2 = 2^{n + 1}$ escenarios posibles (incluso si, en alguna declaración, la dos opciones son la misma piedra, consideramos que la "primera" o la "segunda" opción resultan en distintos escenarios).
 
 Este es uno de los 16 escenarios que Claire podría escoger en el ejemplo anterior:
@@ -33,7 +32,7 @@ Sin importar cómo juegen Alice y Bob, es igualmente probable que Claire elija c
 
 Asume que Alice y Bob van a jugar el resto del juego como se definió arriba. Calcula el número de escenarios en los que gana el juego cada jugador.
 
-# Entrada 
+# Entrada
 
 La primera línea de entrada contiene los números $n$ y $k$ — el número de piedras y el número de declaraciones que ya se han hecho.
 
