@@ -18,7 +18,7 @@
   },
   "misc": {
     "alias": "dummy-egoi",
-    "visibility": "public",
+    "visibility": "private",
     "languages": "all",
     "email_clarifications": 0,
     "admin-groups": ["ofmi-2022"]
