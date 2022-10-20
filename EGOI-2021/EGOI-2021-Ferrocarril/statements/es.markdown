@@ -4,7 +4,7 @@ Tienes el horario de servicio del ferrocarril entre las dos ciudades. Hay $m$ se
 
 El tamaño del ferrocarril es despreciable en comparación del tamaño de las vías, por lo que en este problema **por favor asume que el ferrocarril es un punto** que se mueve sobre las vías del ferrocarril.
 
-Usualmente las vías del ferrocarril tienen dos carriles: uno para cada dirección. La única excepción es en los túneles. 
+Usualmente las vías del ferrocarril tienen dos carriles: uno para cada dirección. La única excepción es en los túneles.
 En cada túnel hay exactamente un carril que se puede usar en cualquier dirección.
 
 Cuando dos ferrocarriles que transitan en direcciones opuestas, se encuentran afuera de un túnel, pueden continuar su camino de forma segura. Esto incluye cuando los ferrocarriles se encuentran exactamente en cualquier extremo del túnel. Por otro lado, si dos ferrocarriles se encuentran adentro de un túnel, hay una colisión.
@@ -38,21 +38,22 @@ Imprime una sola línea, indicando con un "YES" (sin comillas) si al menos una c
 sample
 ||description
 En el primer ejemplo hay dos túneles en una vía de kilómetros: uno que comienza en el kilómetro desde Zürich y termina en el kilómetro , y el otro que comienza en el kilómetro y termina en el kilómetro desde Zürich. El único ferrocarril que comienza desde Zürich logra evitar todos los servicios que salen de Lugano de la siguiente forma:
+
 - Se encuentra con el primer ferrocarril de Lugano en el kilómetro desde Zürich,
 - Se encuentra con el segundo a la mitad del camino entre los túneles,
 - Se encuentra con el tercero en el kilómetro desde Lugano,
 - Cuando comienza el servicio del cuarto ferrocarril, el ferrocarril de Zürich ya habrá llegado a su destino.
-||examplefile
-sample2
-||description
-En el segundo ejemplo, los únicos dos ferrocarriles se encuentran a la mitad del único túnel, resultando en un trágico choque.
-||examplefile
-sample3
-||description
-En el tercer ejemplo, los dos ferrocarriles se encuentran exactamente al final del túnel que está más cerca de Zürich. En el cuarto ejemplo, los ferrocarriles se encuentran exactamente al final del túnel. Ambos casos están bien, dado que los ferrocarriles pueden tomar sus carriles respectivos y llegar a su destino de manera segura.
-||examplefile
-sample4
-||end
+  ||examplefile
+  sample2
+  ||description
+  En el segundo ejemplo, los únicos dos ferrocarriles se encuentran a la mitad del único túnel, resultando en un trágico choque.
+  ||examplefile
+  sample3
+  ||description
+  En el tercer ejemplo, los dos ferrocarriles se encuentran exactamente al final del túnel que está más cerca de Zürich. En el cuarto ejemplo, los ferrocarriles se encuentran exactamente al final del túnel. Ambos casos están bien, dado que los ferrocarriles pueden tomar sus carriles respectivos y llegar a su destino de manera segura.
+  ||examplefile
+  sample4
+  ||end
 
 # Límites
 
@@ -65,6 +66,7 @@ sample4
 # Subtareas
 
 En todas las subtareas, excepto en la última, los valores de $s$, todas las $c_j$ y todas las $d_k$ son **pares**.
+
 - Subtarea 1 (14 puntos): $t, m, n \leq 100$ y $s \leq 5000$
 - Subtarea 2 (16 puntos): $t \leq 5000$ y $s \leq 10^6$
 - Subtarea 3 (41 puntos): Sin restricciones adicionales.
