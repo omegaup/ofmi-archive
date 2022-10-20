@@ -65,8 +65,8 @@ En el segundo ejemplo, Si Alice empieza declarando "​1 1​" , Bob continuará
 
 # Subtareas
 
-- Subtarea 1 (15 puntos):: $N \leq 4$
-- Subtarea 1 (34 puntos):: $N \leq 10$
-- Subtarea 1 (20 puntos):: $N \leq 25$
-- Subtarea 1 (10 puntos):: $k = 0$
-- (21 puntos): No hay consideraciones adicionales.
+- Subtarea 1 (15 puntos): $N \leq 4$
+- Subtarea 2 (34 puntos): $N \leq 10$
+- Subtarea 3 (20 puntos): $N \leq 25$
+- Subtarea 4 (10 puntos): $k = 0$
+- Subtarea 5 (21 puntos): No hay consideraciones adicionales.
