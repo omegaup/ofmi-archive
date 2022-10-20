@@ -30,6 +30,7 @@ La segunda línea tiene $n$ enteros separados por un espacio $t_1,...,t_n$, dond
 Las siguientes líneas describen los senderos. La $j$-ésima línea contiene tres enteros separados por un espacio $a_j$, $b_j$ y $l_j$, indicando que existe un sendero entre las áreas $a_j$ y $b_j$ de longitud $l_j$.
 
 Se garantiza que:
+
 - existe a lo más un sendero entre dos áreas,
 - es posible caminar entre dos áreas usando cero o más senderos,
 - existe al menos un área poblada por vacas,
