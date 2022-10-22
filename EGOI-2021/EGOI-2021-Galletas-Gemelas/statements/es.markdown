@@ -1,4 +1,4 @@
-*Este es un problema interactivo. Tu programa se comunicará con el evaluador alternando mensajes escritos hacia la salida estándar y leyendo mensajes de la entrada estándar.*
+_Este es un problema interactivo. Tu programa se comunicará con el evaluador alternando mensajes escritos hacia la salida estándar y leyendo mensajes de la entrada estándar._
 
 Sophie está preparando la fiesta de cumpleaños de sus gemelas. Las gemelas aman las galletas. Para su cumpleaños quieren probar algo nuevo: galletas de la Compañía de Sabrosura Única de Galletas (UCTC por sus siglas en inglés).
 
@@ -27,10 +27,10 @@ Cada vez que tu programa escriba una o más líneas a la salida, debes hacer **f
 Ejemplos de cómo puedes hacer esto:
 
 - En C++, hay varias opciones.
-    - ​fflush(stdout);​
-    - ​std::cout << std::flush;​
-    - ​std::cout << std::endl;​ (recuerda que esto también imprime una línea nueva)
-    - leyendo con ​std::cin​ también hace flush del stream de salida.
+  - ​fflush(stdout);​
+  - ​std::cout << std::flush;​
+  - ​std::cout << std::endl;​ (recuerda que esto también imprime una línea nueva)
+  - leyendo con ​std::cin​ también hace flush del stream de salida.
 - En Java, puedes usar ​System.out.flush()​
 - En Python, puedes usar ​sys.stdout.flush()
 
@@ -40,9 +40,9 @@ Tu programa debe hacer la siguiente secuencia de acciones:
 
 1. Leer el valor de $n$ de entrada estándar.
 2. A lo más 101 veces:
-    1. Primero escribe (a la salida estándar) una línea que represente un pedido de galletas.
-    2. Luego lee la sabrosura de la galleta que recibiste. Se te garantiza que este valor está entre los $n$ valores que están en el pedido actual.
-    3. Escribe tres líneas describiendo una forma válida de repartir a las gemelas las galletas que recibiste.
+   1. Primero escribe (a la salida estándar) una línea que represente un pedido de galletas.
+   2. Luego lee la sabrosura de la galleta que recibiste. Se te garantiza que este valor está entre los $n$ valores que están en el pedido actual.
+   3. Escribe tres líneas describiendo una forma válida de repartir a las gemelas las galletas que recibiste.
 
 El evaluador escribirá cada entero en una línea separada.
 
