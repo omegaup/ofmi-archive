@@ -1,4 +1,4 @@
-Hay unas vías de ferrocarril que conectan Zürich y Lugano de una longitud de kilómetros. Las vías pasan por la hermosa cordillera de los Alpes, permitiendo apreciar un espectacular escenario durante su recorrido. Dado que algunos tramos de la cordillera son muy altos para el ferrocarril, hay $t$ túneles. El $i$-ésimo túnel comienza en el kilómetro $a_i$ y termina en el kilómetro $b_i$, empezando en Zürich y yendo a Lugano (esto significa que el tamaño del $i$-ésimo túnel es de $b_i - a_i$).
+Hay unas vías de ferrocarril que conectan Zürich y Lugano de una longitud de $s$ kilómetros. Las vías pasan por la hermosa cordillera de los Alpes, permitiendo apreciar un espectacular escenario durante su recorrido. Dado que algunos tramos de la cordillera son muy altos para el ferrocarril, hay $t$ túneles. El $i$-ésimo túnel comienza en el kilómetro $a_i$ y termina en el kilómetro $b_i$, empezando en Zürich y yendo a Lugano (esto significa que el tamaño del $i$-ésimo túnel es de $b_i - a_i$).
 
 Tienes el horario de servicio del ferrocarril entre las dos ciudades. Hay $m$ servicios que van de Zürich a Lugano, el $j$-ésimo servicio de estos sale en el minuto $c_j$ y hay $n$ servicios desde Lugano a Zürich, donde el $k$-ésimo servicio de estos sale en el minuto $d_k$. Todos los ferrocarriles operan sobre las vías a una velocidad constante de 1 kilómetro por segundo, independientemente de la dirección que tengan o si se encuentran dentro o fuera de un túnel. No hay estaciones en el camino y los ferrocarriles nunca se detienen en los semáforos. Por lo tanto, cada servicio llega a su destino en exactamente $s$ minutos.
 
@@ -13,16 +13,13 @@ Dada la descripción de los túneles y los servicios de ferrocarril disponibles,
 
 # Entrada
 
-La primera línea contiene cuatro enteros separados por un espacio $s$, $t$, $m$ y $n$ — representando el tamaño de las vías del ferrocarril, el número de túneles, la cantidad de servicios que salen de
-Zürich y la cantidad de servicios que salen de Lugano, respectivamente.
+La primera línea contiene cuatro enteros separados por un espacio $s$, $t$, $m$ y $n$ — representando el tamaño de las vías del ferrocarril, el número de túneles, la cantidad de servicios que salen de Zürich y la cantidad de servicios que salen de Lugano, respectivamente.
 
 La segunda línea contiene $t$ enteros separados por un espacio $a_i$ - representando la posición donde comienza cada túnel.
 
 La tercera línea contiene $t$ enteros separados por un espacio $b_i$ - representando la posición donde termina cada túnel.
 
-Para cada $i$ entre $1$ y $t$, la desigualdad $a_i < b_i$, se cumple. Además, para cada $i$ entre $1$ y $t - 1$
-, $b_i < a_{i + 1}$. (En otras palabras, cada túnel tiene una longitud positiva, los túneles
-no se sobreponen y se proporcionan en orden creciente de acuerdo con su distancia desde Zürich).
+Para cada $i$ entre $1$ y $t$, la desigualdad $a_i < b_i$, se cumple. Además, para cada $i$ entre $1$ y $t - 1$, $b_i < a_{i + 1}$. (En otras palabras, cada túnel tiene una longitud positiva, los túneles no se sobreponen y se proporcionan en orden creciente de acuerdo con su distancia desde Zürich).
 
 La cuarta línea contiene $m$ enteros separados por un espacio $c_j$ — representando el tiempo en minutos en el que cada servicio de Zürich comienza. Los tiempos se proporcionan en orden creciente, esto es $c_j < c_{j + i}$, se cumple para todo $j$ válido.
 
