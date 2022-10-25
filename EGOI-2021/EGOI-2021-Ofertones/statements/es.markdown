@@ -1,4 +1,4 @@
-Heidi está en una gran tienda. A ella le gustaría comprar artículos.
+Heidi está en una gran tienda. A ella le gustaría comprar $n$ artículos.
 
 Hoy es su día de suerte. La tienda tiene una oferta especial: en cada compra, el cliente recibe una de las siguientes dos promociones:
 
@@ -38,7 +38,7 @@ sample3
 # Límites
 
 - $1 \leq n \leq 10^5$
-- $1 \leq q \leq 100$
+- $0 \leq q \leq 100$
 - $100 \leq p_i \leq 10^5$
 
 # Subtareas
