@@ -3,6 +3,7 @@ A Luna se le ha ocurrido una idea. Formó a sus $2n$ amigos en una larga fila y 
 Luna quiere enviar a cada una de las $n$ parejas a una cita. Sin embargo, hacerlo no es tan sencillo. Para poder enviar una pareja a una cita, los dos amigos que forman la pareja deben estar uno junto al otro en la fila; es decir, no puede haber ninguna otra persona entre ellos.
 
 Hay dos posibles acciones que Luna puede realizar:
+
 - Intercambiar cualesquiera dos amigos que se encuentren uno junto a otro en la fila.
 - Si una pareja se encuentra ya junta en la línea, Luna puede enviarlos a una cita. Esto quita la pareja de la fila. Los amigos que continuan en la fila se desplazan para llenar el espacio de la fila.
 
