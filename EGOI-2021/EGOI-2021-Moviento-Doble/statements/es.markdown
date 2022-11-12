@@ -36,7 +36,7 @@ Asume que Alice y Bob van a jugar el resto del juego como se definió arriba. Ca
 
 La primera línea de entrada contiene los números $n$ y $k$ — el número de piedras y el número de declaraciones que ya se han hecho.
 
-Las siguientes $k$ líneas, describen las declaraciones en el orden en que se hicieron. Cada línea contiene 2 números eneros separados por espacio: los números de las piedras declaradas (ambos entre $1$ y $n$ inclusive y no necesariamente distintas).
+Las siguientes $k$ líneas, describen las declaraciones en el orden en que se hicieron. Cada línea contiene 2 números enteros separados por espacio: los números de las piedras declaradas (ambos entre $1$ y $n$ inclusive y no necesariamente distintas).
 
 Nota que cuando $k < n + 1$ el siguiente jugador en hacer una declaración depende de la paridad de $k$.
 
