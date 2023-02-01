@@ -1,0 +1,7 @@
+interface Main {
+    int valorB();
+};
+
+interface aplusb {
+    int suma(int A);
+};
