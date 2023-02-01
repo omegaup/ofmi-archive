@@ -3,5 +3,5 @@ interface Main {
 };
 
 interface aplusb {
-    int suma(int A, int B);
+    int suma(int A);
 };
