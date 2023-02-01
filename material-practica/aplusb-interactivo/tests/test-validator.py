@@ -17,7 +17,7 @@ class Test(unittest.TestCase):
         lines.pop()
 
         # En la primera línea un dos enteros a y b
-        reg = re.compile(r'^[1-9]\d*$')
+        reg = re.compile(r'^[1-9]\d* [1-9]\d*$')
         self.assertTrue(reg.match(lines[0]), "input does not match regex")
         A, B = map(int, lines[0].split(' '))
 
