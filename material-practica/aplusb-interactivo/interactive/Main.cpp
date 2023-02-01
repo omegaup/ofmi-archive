@@ -4,9 +4,7 @@
 
 int A, B;
 
-int valorB() {
-  return B;
-}
+int valorB() { return B; }
 
 int main() {
   std::cin >> A >> B;
