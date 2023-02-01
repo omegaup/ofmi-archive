@@ -53,12 +53,11 @@ suma(1)
   ||description
   Llamamos a la función `valorB` para saber que $B = 2$.
   ||input
-  -
-  ||output
-  3
-  ||description
-  Ahora que sabemos $A$ y $B$, regresamos 3 en la función `suma`
-  ||end
+  - ||output
+    3
+    ||description
+    Ahora que sabemos $A$ y $B$, regresamos 3 en la función `suma`
+    ||end
 
 # Límites
 

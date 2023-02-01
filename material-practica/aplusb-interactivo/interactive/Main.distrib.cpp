@@ -2,7 +2,6 @@
 
 #include "aplusb.h"
 
-
 int A, B;
 
 int valorB() {
@@ -15,7 +14,8 @@ int main() {
   std::cin >> A >> B;
   std::cout << "Llamando a tu funcion suma(" << A << ")" << std::endl;
   int C = suma(A);
-  std::cout << "Tu funcion suma(" << A << ") " << "(B=" << B << ") devolvio " << C << std::endl;
+  std::cout << "Tu funcion suma(" << A << ") "
+            << "(B=" << B << ") devolvio " << C << std::endl;
   if (C != A + B) {
     std::cout << "Respuesta incorrecta :(" << std::endl;
   } else {
