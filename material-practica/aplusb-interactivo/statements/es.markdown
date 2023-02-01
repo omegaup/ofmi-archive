@@ -43,21 +43,22 @@ Descripción
 ||input
 suma(1)
 ||output
-
-- ||description
-  El evaluador mandó a llamar a tu función `suma`, con $A=1$.
-  ||input
-  valorB()
-  ||output
-  2
-  ||description
-  Llamamos a la función `valorB` para saber que $B = 2$.
-  ||input
-  - ||output
-    3
-    ||description
-    Ahora que sabemos $A$ y $B$, regresamos 3 en la función `suma`
-    ||end
+--
+||description
+El evaluador mandó a llamar a tu función `suma`, con $A=1$.
+||input
+valorB()
+||output
+2
+||description
+Llamamos a la función `valorB` para saber que $B = 2$.
+||input
+--
+||output
+3
+||description
+Ahora que sabemos $A$ y $B$, regresamos 3 en la función `suma`
+||end
 
 # Límites
 
