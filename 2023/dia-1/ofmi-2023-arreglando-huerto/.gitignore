@@ -1,2 +1,0 @@
-**/*.out
-!tests/invalid-cases/*.out
