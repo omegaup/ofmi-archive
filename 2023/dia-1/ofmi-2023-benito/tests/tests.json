@@ -1,0 +1,40 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionC.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/sub1.cpp",
+      "score_range": [0.1, 0.1]
+    },
+    {
+      "filename": "../solutions/sub2.cpp",
+      "score_range": [0.1, 0.12]
+    },
+    {
+      "filename": "../solutions/sub3.cpp",
+      "score_range": [0.2, 0.5]
+    },
+    {
+      "filename": "../solutions/sub4.cpp",
+      "score_range": [0.2, 0.56]
+    },
+    {
+      "filename": "../solutions/always-negative-one.py",
+      "verdict": "WA"
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}

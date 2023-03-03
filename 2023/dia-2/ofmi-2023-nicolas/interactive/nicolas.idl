@@ -1,0 +1,8 @@
+interface Main {
+    bool foto(int y);
+    [NoReturn] void reporta(int X, int L);
+};
+
+interface nicolas {
+    void nicolas();
+};
