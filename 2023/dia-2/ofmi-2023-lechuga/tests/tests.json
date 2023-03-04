@@ -1,0 +1,29 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/sub1.cpp",
+      "verdict": "PA",
+      "score_range": [0.25, 0.25]
+    },
+    {
+      "filename": "../solutions/chafaS.cpp",
+      "verdict": "WA"
+    },
+    {
+      "filename": "../solutions/chafaTodasLlegan.cpp",
+      "verdict": "WA"
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}

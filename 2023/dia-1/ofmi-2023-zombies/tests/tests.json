@@ -1,0 +1,36 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/overflow.cpp",
+      "score_range": [0.9, 0.99],
+      "verdict": "PA"
+    },
+    {
+      "filename": "../solutions/parcial.cpp",
+      "score_range": [0.7, 0.81],
+      "verdict": "PA"
+    },
+    {
+      "filename": "../solutions/sub1.cpp",
+      "score_range": [0.05, 0.07],
+      "verdict": "PA"
+    },
+    {
+      "filename": "../solutions/sub2.cpp",
+      "score_range": [0.05, 0.07],
+      "verdict": "PA"
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}
