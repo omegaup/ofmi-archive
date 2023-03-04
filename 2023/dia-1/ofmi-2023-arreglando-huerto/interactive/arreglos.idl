@@ -1,0 +1,7 @@
+interface Main {
+    [NoReturn] bool mueve(int indice, int cantidad, int direccion);
+};
+
+interface arreglos {
+    bool arregla([Range(2, 500000)] int n, int[n] A, int[n] B);
+};

@@ -1,0 +1,9 @@
+interface Main {
+};
+
+interface recorriendo {
+    void adelante(int x);
+    void atras(int y);
+    int avanzado();
+    int vueltas();
+};
