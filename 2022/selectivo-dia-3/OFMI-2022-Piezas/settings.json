@@ -1,0 +1,29 @@
+{
+  "title": "Piezas de fomi",
+  "source": "OFMI 2022 (Juan Carlos Sigler Priego)",
+  "limits": {
+    "TimeLimit": 1000,
+    "MemoryLimit": 134217728,
+    "InputLimit": 67108864,
+    "OutputLimit": 67108864,
+    "ExtraWallTime": 0,
+    "OverallWallTimeLimit": 60000
+  },
+  "validator": {
+    "name": "literal",
+    "limits": {
+      "TimeLimit": 1000
+    }
+  },
+  "interactive": {
+    "ModuleName": "piezasdefomi",
+    "ParentLang": "cpp17-gcc"
+  },
+  "misc": {
+    "alias": "ofmi-2022-piezas",
+    "visibility": "private",
+    "languages": "all",
+    "email_clarifications": 0,
+    "admin-groups": ["ofmi-2022"]
+  }
+}

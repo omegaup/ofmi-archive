@@ -1,0 +1,30 @@
+{
+  "title": "Capicúas en rango",
+  "source": "OFMI 2022 (Juan Carlos Sigler Priego)",
+  "limits": {
+    "TimeLimit": 3000,
+    "MemoryLimit": 134217728,
+    "InputLimit": 67108864,
+    "OutputLimit": 67108864,
+    "ExtraWallTime": 5000,
+    "OverallWallTimeLimit": 60000
+  },
+  "validator": {
+    "name": "token-caseless",
+    "name": "literal",
+    "limits": {
+      "TimeLimit": 1000
+    }
+  },
+  "interactive": {
+    "ModuleName": "subrangosBonitos",
+    "ParentLang": "cpp17-gcc"
+  },
+  "misc": {
+    "alias": "ofmi-2022-capicuas",
+    "visibility": "private",
+    "languages": "all",
+    "email_clarifications": 0,
+    "admin-groups": ["ofmi-2022"]
+  }
+}

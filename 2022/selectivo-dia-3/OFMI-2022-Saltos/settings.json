@@ -1,0 +1,33 @@
+{
+  "title": "Saltos de Cobaya",
+  "source": "OFMI 2022 (Erick Troyo)",
+
+  "limits": {
+    "TimeLimit": 2000,
+    "MemoryLimit": 134217728,
+    "InputLimit": 67108864,
+    "OutputLimit": 67108864,
+    "ExtraWallTime": 2000,
+    "OverallWallTimeLimit": 60000
+  },
+
+  "validator": {
+    "name": "literal",
+    "limits": {
+      "TimeLimit": 1000
+    }
+  },
+
+  "interactive": {
+    "ModuleName": "cobayasaltarina",
+    "ParentLang": "cpp17-gcc"
+  },
+
+  "misc": {
+    "alias": "ofmi-2022-saltos",
+    "visibility": "private",
+    "languages": "all",
+    "email_clarifications": 0,
+    "admin-groups": ["ofmi-2022"]
+  }
+}
