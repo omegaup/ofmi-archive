@@ -1,0 +1,5 @@
+interface Main {};
+
+interface ranasaltarina {
+  int palabraFavorita([Range(1, 100000)] int n, char[n] s, [Range(1, 100000)] int m, char[m] piezas);
+};

@@ -1,0 +1,5 @@
+interface Main {};
+
+interface subrangosBonitos {
+  int subrangosBonitos(long A, long B);
+};
