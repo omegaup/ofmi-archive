@@ -1,0 +1,5 @@
+interface Main {};
+
+interface cobayasaltarina {
+  int cobayaSaltarina(int k, [Range(0, 10000)] int n, int[n] hoyos);
+};
