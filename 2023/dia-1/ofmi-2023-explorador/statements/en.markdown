@@ -2,7 +2,7 @@ Mich is a great explorer. Today he is determined to find the legendary Jade Carr
 
 The trap consists of a rectangular room where the floor is covered by square tiles, where each tile shows an arrow pointing toward one of the four directions (North, South, East, or West) toward another tile or the wall inside the room. Mich can jump between adjacent tiles, but if he's on a tile and jumps in a direction that is different from the one it's pointing to, the gate to the Jade Carrot will close and he will only have the option to go back through the way he came from, but without the long-awaited, mythical carrot.
 
-Fortunately, there is an alternative, as through his trajectory Mich can drop a gold coin over the tile in which he's in, changing the direction to any of the four possible ones. Our explorer was expecting something of the sort, so he carries enough gold coins to make this change of direction at the necessary times. However, he would like to spend the least amount of them possible to celebrate big when he returns from his adventure. 
+Fortunately, there is an alternative, as through his trajectory Mich can drop a gold coin over the tile in which he's in, changing the direction to any of the four possible ones. Our explorer was expecting something of the sort, so he carries enough gold coins to make this change of direction at the necessary times. However, he would like to spend the least amount of them possible to celebrate big when he returns from his adventure.
 
 Considering Mich starts in the lower left corner of the room, and the gate is located in the upper right corner, help Mich reach the gate by spending the least possible amount of gold coins.
 
