@@ -12,7 +12,7 @@ La clave de esta subtarea es ver que, dado que siempre hay solución, en todo mo
 
 ## Subtarea 2.
 
-Lo primero que debemos hacer a partir de esta subtarea es saber si es posible hacer que los dos arreglos sean iguales. Resulta que se se puede arreglar si y solo si la suma de los elementos de $A$ es igual a la de $B$.
+Lo primero que debemos hacer a partir de esta subtarea es saber si es posible hacer que los dos arreglos sean iguales. Resulta que se puede arreglar si y solo si la suma de los elementos de $A$ es igual a la de $B$.
 
 Una demostración sencilla nos lleva a un algoritmo para solucionar la subtarea 2. Podemos hacer una iteración primera en donde vamos pasando todos los elementos de $A$ de derecha a izquierda, acumulando toda la suma de $A$ en la primera casilla. Así podemos correr tal cual el algoritmo de la subtarea anterior para ir acomodando los necesarios ahora de izquierda a derecha.
 
