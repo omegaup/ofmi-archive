@@ -8,7 +8,7 @@ Considering Mich starts in the lower left corner of the room, and the gate is lo
 
 # Input
 
-In the first line, two numbers $N$ y $M$, which represent the width and height of the room.
+In the first line, two numbers $N$ and $M$, which represent the width and height of the room.
 
 In the following $N$ lines, $M$ numbers that indicate the direction to which each tile points: `0` for North, `1` for East, `2` for South, and `3` for West.
 
