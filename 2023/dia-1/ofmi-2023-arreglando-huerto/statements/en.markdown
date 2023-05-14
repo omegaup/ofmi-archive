@@ -128,4 +128,4 @@ _IMPORTANT:_ The test evaluator and the final program evaluator that are used to
 
 ---
 
-![](arreglando.jpeg 'Chasing the snake.')
+![](arreglando.jpeg 'Chasing Nicholas, the vegetarian snake.')
