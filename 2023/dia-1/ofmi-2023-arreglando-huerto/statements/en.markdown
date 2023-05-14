@@ -102,13 +102,13 @@ arregla(4, [1, 2, 0, 1], [0, 1, 3, 0])
 
 # Subtasks
 
-- **Subtask 1 group (18 points):**
+- **Subtask 1 (18 points):**
   - The initial elements of $A$ are in descending order, meaning $A[i] \geq A[i+1]$, and those of $B$ are in ascending order, $B[i] \leq B[i+1]$ for all $i$.
   - It is certain that there is always a solution.
   - $n \leq 10^4$
-- **Subtask 2 group (37 points):**
+- **Subtask 2 (37 points):**
   - $n \leq 10^3$
-- **Subtask 3 group (45 points):**
+- **Subtask 3 (45 points):**
   - $n \leq 10^4$
   - Additionally, you must use the smallest number of calls possible to function `mueve`.
 
