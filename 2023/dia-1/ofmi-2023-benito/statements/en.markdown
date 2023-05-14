@@ -51,11 +51,11 @@ sample2
 - **Subtask 1 (10 points):**
   - $1 \leq n \leq 3$.
 - **Subtask 2 (10 points):**
-  - It is a certainty that matrixes are always spiral-shaped.
+  - It is a certainty that matrices are always spiral-shaped.
 - **Subtask 3 (20 points):**
-  - Only matrixes that are not spiral-shaped and those in spirals from the outside to the inside.
+  - Only matrices that are not spiral-shaped and those in spirals from the outside to the inside.
 - **Subtask 4 (20 points):**
-  - Only matrixes that are not spiral-shaped and those in spirals from the inside to the outside.
+  - Only matrices that are not spiral-shaped and those in spirals from the inside to the outside.
 - **Subtask 5 (40 points):**
   - No additional considerations.
 
