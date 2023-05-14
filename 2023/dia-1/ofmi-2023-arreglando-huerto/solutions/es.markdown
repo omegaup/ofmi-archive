@@ -24,7 +24,7 @@ Una demostración sencilla nos lleva a un algoritmo para solucionar la subtarea 
 
 ## Subtarea 3.
 
-El algoritmo anterior nos da la respuesta en ~$2n$ llamadas. Para reducir este número de llamadas podemos hacer que entre cada par de casillas adyacentes solo haya un movimiento (ya sea a la izquierda o a la derecha).
+El algoritmo anterior nos da la respuesta en $2n$ llamadas. Para reducir este número de llamadas podemos hacer que entre cada par de casillas adyacentes solo haya un movimiento (ya sea a la izquierda o a la derecha).
 
 Empecemos con un arreglo de tamaño $n$, busquemos de izquierda a derecha el primer índice $j$ tal que $\sum_{i=0}^{j} A_i \geq \sum_{i=0}^{j} B_i$. Entonces, lo que hay que hacer es hacer pasar elementos de derecha a izquierda a partir de $j$. Una vez hecho, todos los elementos de $[0, j]$ estarán bien arreglados. Entonces aplicamos el mismo algoritmo para el subarreglo que quedó (de $[j + 1, n]$).
 
