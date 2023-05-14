@@ -2,7 +2,7 @@
 
 ## Subtask 1 group. (Ordered elements)
 
-The key of this subtask is to see that, given that there is always a solution, $A_i \geq B_i$ is always achieved. For this reason, we can always move from left to right. In other words, we start from the first element of  $A$, subtract the necessary to make it equal to the first one of $B$, and pass it on to the right. We do the same with the second element, and so on.
+The key of this subtask is to see that, given that there is always a solution, $A_i \geq B_i$ is always achieved. For this reason, we can always move from left to right. In other words, we start from the first element of $A$, subtract the necessary to make it equal to the first one of $B$, and pass it on to the right. We do the same with the second element, and so on.
 
 <details><summary>Solution to the subtask 1</summary>
 
