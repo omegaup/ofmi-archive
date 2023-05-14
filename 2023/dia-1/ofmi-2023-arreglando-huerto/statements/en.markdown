@@ -31,7 +31,7 @@ The program evaluator has its own copies of `A` and `B`, different from the para
 
 ## Return
 
-Your function must return a boolean, which represents if it was possible or not to make both arrays the same. 
+Your function must return a boolean, which represents if it was possible or not to make both arrays the same.
 
 # The program evaluator function, `mueve`
 
@@ -78,7 +78,7 @@ arregla(4, [1, 2, 0, 1], [0, 1, 3, 0])
   ||output
   false
   ||description
-  We subtract $1$ from the element $A[0]$ and add $1$ to the element $A[1]$. The new value of $A$ is `[0, 3, 0, 1]`. The function returns `false`because $A$ is not equal to $B$. 
+  We subtract $1$ from the element $A[0]$ and add $1$ to the element $A[1]$. The new value of $A$ is `[0, 3, 0, 1]`. The function returns `false`because $A$ is not equal to $B$.
   ||input
   mueve(1, 2, 1)
   ||output
