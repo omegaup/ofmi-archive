@@ -42,7 +42,7 @@ Some observations that help understand the solutions are:
 - I can always find a path that spends the least possible amount of gold coins without cycles, as the cycle can be cut; if coins were spent on the cycle, that is because after the cycle you needed to pass through a certain tile with a specific direction; in such case, you can use the coin after the cycle.
 - The prior observation allows us to implement the algorithm in a way that we mark the tiles as visited and we don't process them again so that the number of operations is described by the maximum (N\*M) tiles we process, multiplied by a factor 4 by accounting the maximum of 4 neighbors that each tile has (depending of the implementation, there can be a bigger factor, so there is still a good amount of time left considering the time limit given by the problem).
 
-This algorithm is a modification of the classical algorithm of Breadth First Search, also known as BFS. You can practice more about this subject with the following practice problems:
+This algorithm is a modification of the classical Breadth First Search, also known as BFS. You can practice more about this subject with the following practice problems:
 
 - https://omegaup.com/arena/problem/Volcan/
 - https://omegaup.com/arena/problem/Intersecciones/
