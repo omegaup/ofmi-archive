@@ -1,6 +1,6 @@
-After fixing your garden, you were very tired, and to rest, you decided to figure out how you became so tired in the first place. 
+After fixing your garden, you were very tired, and to rest, you decided to figure out how you became so tired in the first place.
 
-It turns out that by moving from one side to the other this happened, sometimes forgetting the vegetables you were going to plant and other times chasing Nicholas, the vegetarian serpent who stole them.  And given that your garden is of $1$ unit in its height and infinitely large, you can only move forward and backward.
+It turns out that by moving from one side to the other this happened, sometimes forgetting the vegetables you were going to plant and other times chasing Nicholas, the vegetarian serpent who stole them. And given that your garden is of $1$ unit in its height and infinitely large, you can only move forward and backward.
 
 You have the register of the movements you made (because you are THAT organized) and you want to know how many meters you have traversed at any given moment and how many times you have changed directions.
 
