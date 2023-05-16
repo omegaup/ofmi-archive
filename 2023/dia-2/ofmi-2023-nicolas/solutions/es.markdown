@@ -2,7 +2,7 @@
 
 ## Subtarea 1 ($L = 1$).
 
-Para esta subtarea, debemos observar que dada una velocidad $X$, podemos calcular su posición $p$ en el tiempo $t$ con $p = X \mdot t$.
+Para esta subtarea, debemos observar que dada una velocidad $X$, podemos calcular su posición $p$ en el tiempo $t$ con $p = X \dot{v} t$.
 
 Entonces podemos recorrer las velocidades $X$ y tomar una foto en $p$. Si Nicolás está ahí, significa que escogimos una $X$ correcta.
 
