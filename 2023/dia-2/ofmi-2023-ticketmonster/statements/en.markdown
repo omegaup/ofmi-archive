@@ -1,6 +1,6 @@
 Tyler Sweet has just announced her world tour for all her herbivore fans, The Tour of The Eras, and asked the webpage Ticket Monster to manage the mushroom sales (Hongus Boletus) which serve as an access to enter the concert so that the sales would not collapse during the presale period.
 
-She also wanted some mushrooms to be sold during the presale, in order to give more animals the opportunity to get a mushroom, worried specifically about reseller snakes taking over the event. 
+She also wanted some mushrooms to be sold during the presale, in order to give more animals the opportunity to get a mushroom, worried specifically about reseller snakes taking over the event.
 
 Ticket Monster told Tyler they could manage it all, but they messed up badly, and aside from collapsing the sales, they finished distributing the mushrooms during the presale period.
 
@@ -10,7 +10,7 @@ You have been told to make a program that processes $N$ animals that arrived at 
 
 # Input
 
-In the first line, you will receive four integers: $N$, $B$, $R$,  and $L$.
+In the first line, you will receive four integers: $N$, $B$, $R$, and $L$.
 
 In the following line, you will see $N$ integers, separated by a space. These represent the tickets $D_i$ that the $i$-the aminal in the line ordered.
 
