@@ -1,0 +1,43 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionC.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/sub1.cpp",
+      "verdict": "PA",
+      "score_range": [0.2, 0.2]
+    },
+    {
+      "filename": "../solutions/sub2.cpp",
+      "verdict": "PA",
+      "score_range": [0.4, 0.4]
+    },
+    {
+      "filename": "../solutions/sub3.cpp",
+      "verdict": "PA",
+      "score_range": [0.15, 0.15]
+    },
+    {
+      "filename": "../solutions/directo.cpp",
+      "verdict": "WA"
+    },
+    {
+      "filename": "../solutions/zero.cpp",
+      "verdict": "WA"
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}
