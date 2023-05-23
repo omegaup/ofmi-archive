@@ -1,0 +1,5 @@
+interface Main {};
+
+interface reunion {
+    double reunion([Range(1, 100000)] int n, int[n] X, int[n] V);
+};

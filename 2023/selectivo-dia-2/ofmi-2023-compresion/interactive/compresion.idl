@@ -1,0 +1,7 @@
+interface Main {
+    [NoReturn] void aplasta(int a, int b);
+};
+
+interface minminmax {
+    int compresion([Range(1, 300000)] int n, int m, int[n] A);
+};

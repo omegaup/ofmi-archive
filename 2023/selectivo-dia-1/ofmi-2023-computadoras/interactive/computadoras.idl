@@ -1,0 +1,7 @@
+interface Main {
+    bool presenta(int identificador);
+};
+
+interface computadoras {
+    void computadoras([Range(1, 5000)] int n, int p, int m, int[n] P, int[n]M);
+};

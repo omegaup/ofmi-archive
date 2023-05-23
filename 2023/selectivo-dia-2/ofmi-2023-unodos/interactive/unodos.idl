@@ -1,0 +1,7 @@
+interface Main {
+    bool asigna(int v, double x);
+};
+
+interface unodos {
+    bool unoDos(int n, [Range(1, 200000)] int m, int[m] U, int[m] V, int[m] T);
+};
