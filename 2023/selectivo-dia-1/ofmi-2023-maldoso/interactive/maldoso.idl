@@ -1,0 +1,8 @@
+interface Main {
+    long pregunta(int i, int j);
+    void respuesta([Range(2, 10000)] int n, int[n] A);
+};
+
+interface maldoso {
+    void maldoso(int n);
+};

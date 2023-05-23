@@ -1,0 +1,8 @@
+interface Main {
+    [NoReturn] void terminar();
+    [NoReturn] void devolver(int p, int a, int b);
+};
+
+interface michmo {
+    void michmo(int N, int M, int P, int A, int B);
+};

@@ -1,0 +1,31 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/sub2.cpp",
+      "verdict": "PA",
+      "score_range": [0.05, 0.05]
+    },
+    {
+      "filename": "../solutions/sub3.cpp",
+      "verdict": "PA",
+      "score_range": [0.2, 0.2]
+    },
+    {
+      "filename": "../solutions/imposible.cpp",
+      "verdict": "WA"
+    },
+    {
+      "filename": "../solutions/missingImpossible.cpp",
+      "verdict": "PA",
+      "score_range": [0.25, 0.35]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}
