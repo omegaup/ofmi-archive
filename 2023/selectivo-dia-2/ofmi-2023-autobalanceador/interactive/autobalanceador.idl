@@ -1,0 +1,7 @@
+interface Main {
+    [NoReturn] void respuesta([Range(1, 200000)] int m, char[m] S);
+};
+
+interface autobalanceador {
+    void balancea([Range(1, 100000)] int n, char[n] S);
+};

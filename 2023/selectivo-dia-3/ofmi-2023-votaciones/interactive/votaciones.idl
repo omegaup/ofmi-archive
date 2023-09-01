@@ -1,0 +1,7 @@
+interface Main {
+    void resultados([Range(1, 1000000)] int n, int[n] R);
+};
+
+interface votaciones {
+    void votacion([Range(1, 1000000)] int n, int m, int[n] A);
+};
