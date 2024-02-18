@@ -1,0 +1,21 @@
+{
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100,
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/parcial.cpp",
+      "score_range": [0.9, 0.96],
+      "verdict": "PA"
+    }
+  ]
+}

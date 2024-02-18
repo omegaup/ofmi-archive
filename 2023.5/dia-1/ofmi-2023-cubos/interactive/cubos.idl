@@ -1,0 +1,8 @@
+interface Main {
+ [NoReturn] bool ponerBloque(int x, int y, int z);
+};
+
+
+interface cubos {
+    void cubo(int N);
+};
