@@ -1,0 +1,31 @@
+{
+  "title": "Los cubos de Mérida",
+  "source": "OFMI 2023.5 (Alexis Cervantes)",
+  "limits": {
+    "TimeLimit": 3000,
+    "MemoryLimit": 134217728,
+    "InputLimit": 67108864,
+    "OutputLimit": 67108864,
+    "ExtraWallTime": 4000,
+    "OverallWallTimeLimit": 60000
+  },
+  "validator": {
+    "name": "literal",
+    "limits": {
+      "TimeLimit": 4000
+    }
+  },
+
+  "interactive": {
+    "ModuleName": "cubos",
+    "ParentLang": "cpp17-gcc"
+  },
+
+  "misc": {
+    "alias": "ofmi-2023-cubos",
+    "visibility": "public",
+    "languages": "all",
+    "email_clarifications": 0,
+    "admin-groups": ["ofmi-2023-5"]
+  }
+}

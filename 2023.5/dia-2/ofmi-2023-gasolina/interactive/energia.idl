@@ -1,0 +1,8 @@
+interface Main {
+    long mueve(int i, int k);
+    int pasaEnergia(int i, int j, int l);
+};
+
+interface energia {
+    void avanzaMaximo(int n, int L);
+};
