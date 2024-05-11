@@ -1,0 +1,32 @@
+{
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100,
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solution_100B.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/20.cpp",
+      "verdict": "PA",
+      "score_range": [0.2, 0.24],
+      "allow_fractional_percentages": true
+    },
+    {
+      "filename": "../solutions/40.cpp",
+      "verdict": "PA",
+      "score_range": [0.4, 0.4]
+    },
+    {
+      "filename": "../solutions/80.cpp",
+      "verdict": "PA",
+      "score_range": [0.8, 0.8]
+    }
+  ]
+}
