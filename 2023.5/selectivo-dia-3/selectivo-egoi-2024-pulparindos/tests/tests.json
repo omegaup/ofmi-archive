@@ -1,0 +1,35 @@
+{
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100,
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solution_b.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionC.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/sub1.cpp",
+      "verdict": "PA",
+      "score_range": [0.06, 0.06]
+    },
+    {
+      "filename": "../solutions/sub2.cpp",
+      "verdict": "TLE",
+      "score_range": [0.47, 0.47]
+    },
+    {
+      "filename": "../solutions/chafa.cpp",
+      "verdict": "WA",
+      "score_range": [0.0, 0.0]
+    }
+  ]
+}
