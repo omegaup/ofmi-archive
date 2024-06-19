@@ -1,0 +1,25 @@
+{
+  "title": "Espías que espían espías",
+  "source": "Selectivo EGOI 2024 (Ethan Jimenez)",
+  "limits": {
+    "TimeLimit": 3000,
+    "MemoryLimit": 134217728,
+    "InputLimit": 33554432,
+    "OutputLimit": 33554432,
+    "ExtraWallTime": 0,
+    "OverallWallTimeLimit": 60000
+  },
+  "validator": {
+    "name": "token-caseless",
+    "limits": {
+      "TimeLimit": 1000
+    }
+  },
+  "misc": {
+    "alias": "selectivo-egoi-2024-espias",
+    "visibility": "public",
+    "languages": "all",
+    "email_clarifications": 0,
+    "admin-groups": ["ofmi-2023-5"]
+  }
+}

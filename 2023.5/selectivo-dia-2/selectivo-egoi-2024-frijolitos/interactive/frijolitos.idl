@@ -1,0 +1,7 @@
+interface Main {
+     [NoReturn] long tomar(long cantidad);
+};
+
+interface frijolitos {
+    void frijolitos(long n);
+};
