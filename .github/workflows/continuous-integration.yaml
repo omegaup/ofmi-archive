@@ -8,6 +8,10 @@ on:
   push:
     branches: [main]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
 env:
   OMEGAUPUSER: ofmi
   OMEGAUP_API_TOKEN: ${{ secrets.OMEGAUP_API_TOKEN }}
@@ -16,6 +20,7 @@ env:
 jobs:
   build-test-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Set base commit (pull request)
         run: |
@@ -33,6 +38,7 @@ jobs:
         run: |
           git config --global core.quotePath false
           echo "PIPENV_PIPFILE=$(pwd)/utils/Pipfile" >> $GITHUB_ENV
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -48,6 +54,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           (cd utils && sudo pip install pipenv && pipenv install)
+
       - name: Set up the CI flags.
         run: |
           # When the utils/ directory is changed, run all tests to avoid
@@ -57,10 +64,12 @@ jobs:
           else
             echo "CI_FLAGS=--ci --all" >> $GITHUB_ENV
           fi
+
       - name: Download omegaUp-ci container
         run: |
           docker login https://docker.pkg.github.com -u ${{ github.actor }} -p ${{ github.token }}
           python3 ./utils/runtests.py ${{ env.CI_FLAGS }} --only-pull-image
+
       - name: Run tests
         run: python3 ./utils/runtests.py ${{ env.CI_FLAGS }}
 
@@ -68,8 +77,12 @@ jobs:
         run: python3 ./utils/generateresources.py --generate=png,testplan ${{ env.CI_FLAGS }}
         if: github.ref == 'refs/heads/main'
 
-      - name: Deploy to omegaUp
-        run: pipenv run python3 ./utils/upload.py --ci --verbose # Don't use CI_FLAGS to avoid deploying all problems.
+      - name: Deploy problems to omegaUp
+        run: pipenv run python3 ./utils/uploadproblems.py --ci --verbose --timeout=600 # Don't use CI_FLAGS to avoid deploying all problems.
+        if: github.ref == 'refs/heads/main'
+
+      - name: Deploy contests to omegaUp
+        run: pipenv run python3 ./utils/uploadcontests.py --ci --verbose # Don't use CI_FLAGS to avoid deploying all contests.
         if: github.ref == 'refs/heads/main'
 
       - name: Push to public branch
@@ -87,7 +100,7 @@ jobs:
           git push origin public
 
       - name: Zip logs
-        if: ${{ always() }}
+        if: ${{ github.ref == 'refs/heads/main' || failure() }}
         run: |
           # actions/upload-artifacts action upload each and every log file
           # individually through one API call. This is extremely slow (~2
@@ -100,18 +113,8 @@ jobs:
           fi
 
       - name: Upload logs
-        if: ${{ always() }}
+        if: ${{ github.ref == 'refs/heads/main' || failure() }}
         uses: actions/upload-artifact@v4
         with:
           name: omegaUp-CI-logs
           path: results.zip
-
-      - name: Notify Slack on failure
-        uses: 8398a7/action-slack@v3
-        with:
-          status: ${{ job.status }}
-          fields: repo,message,commit,author,action,eventName,ref,workflow
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        if: ${{ failure() && github.ref == 'refs/heads/main' }}
