@@ -1,0 +1,87 @@
+// Esta solucion es una heuristica para ver si poniendo la reina en
+// alguna orilla del mapa siempre hay solucion.
+#include <iostream>
+#include <unordered_set>
+#include <vector>
+
+long long HashPosicion(long long x, long long y, long long n) {
+  return x * n + y;
+}
+
+bool PosicionEstaFuera(int x, int y, int n) {
+  return x < 0 || n <= x || y < 0 || n <= y;
+}
+
+int main() {
+  int n, k, x_reina, y_reina;
+  std::cin >> n >> k >> x_reina >> y_reina;
+
+  --x_reina;
+  --y_reina;
+
+  std::unordered_set<long long> caballos;
+  std::vector<bool> columna_bloqueada(n);
+  std::vector<bool> diagonal_principal_bloqueada(2 * n - 1);
+  std::vector<bool> diagonal_secundaria_bloqueada(2 * n - 1);
+  std::vector<bool> fila_bloqueada(n);
+
+  for (int i = 0; i < k; ++i) {
+    int x, y;
+    char pieza;
+    std::cin >> pieza >> x >> y;
+
+    --x;
+    --y;
+
+    switch (pieza) {
+      case 'A':
+        // Alfil.
+        diagonal_principal_bloqueada[n + y - x - 1] = true;
+        diagonal_secundaria_bloqueada[x + y] = true;
+        break;
+      case 'C':
+        // Caballo.
+        caballos.insert(HashPosicion(x, y, n));
+        break;
+      default:
+        // Torre.
+        columna_bloqueada[y] = true;
+        fila_bloqueada[x] = true;
+        break;
+    }
+  }
+
+  std::vector<std::pair<int, int>> movimientos_caballo = {
+      {-2, -1}, {-2, 1}, {-1, -2}, {-1, 2}, {1, -2}, {1, 2}, {2, -1}, {2, 1}};
+  std::vector<std::pair<int, int>> movimientos_reina = {
+      {-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}, {0, 0}};
+
+  for (auto [dx, dy] : movimientos_reina) {
+    for (int k = n; k >= 0; --k) {
+      int x = x_reina + k * dx, y = y_reina + k * dy;
+      if (PosicionEstaFuera(x, y, n)) continue;
+
+      if (columna_bloqueada[y] || fila_bloqueada[x] ||
+          diagonal_principal_bloqueada[n + y - x - 1] ||
+          diagonal_secundaria_bloqueada[x + y] ||
+          caballos.contains(HashPosicion(x, y, n))) {
+        break;
+      }
+
+      bool atacada_por_caballo = false;
+      for (auto [cx, cy] : movimientos_caballo) {
+        int x_caballo = x + cx, y_caballo = y + cy;
+        if (PosicionEstaFuera(x_caballo, y_caballo, n)) continue;
+
+        atacada_por_caballo =
+            caballos.contains(HashPosicion(x_caballo, y_caballo, n));
+        if (atacada_por_caballo) break;
+      }
+      if (atacada_por_caballo) break;
+
+      std::cout << x + 1 << ' ' << y + 1 << '\n';
+      return 0;
+    }
+  }
+  std::cout << "-1\n";
+}
