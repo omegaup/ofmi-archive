@@ -1,0 +1,59 @@
+{
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/sub1.cpp",
+      "verdict": "PA",
+      "score_range": [0.09, 0.09]
+    },
+    {
+      "filename": "../solutions/sub2.cpp",
+      "verdict": "PA",
+      "score_range": [0.13, 0.13]
+    },
+    {
+      "filename": "../solutions/sub3.cpp",
+      "verdict": "TLE",
+      "score_range": [0.15, 0.15]
+    },
+    {
+      "filename": "../solutions/sub4.cpp",
+      "verdict": "TLE",
+      "score_range": [0.34, 0.34]
+    },
+    {
+      "filename": "../solutions/sub5.cpp",
+      "verdict": "PA",
+      "score_range": [0.68, 0.68]
+    },
+    {
+      "filename": "../solutions/chafa1.cpp",
+      "verdict": "WA"
+    },
+    {
+      "filename": "../solutions/chafa2.cpp",
+      "verdict": "WA"
+    },
+    {
+      "filename": "../solutions/greedy_chafa.cpp",
+      "verdict": "PA",
+      "score_range": [0.22, 0.22]
+    },
+    {
+      "filename": "../solutions/chafa3.cpp",
+      "verdict": "WA",
+      "score_range": [0.0, 0.0]
+    }
+  ],
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100
+}
