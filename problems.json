@@ -1,4 +1,9 @@
 {
+  "contests": [
+    {
+      "path": "2024/dia-1"
+    }
+  ],
   "problems": [
     {
       "path": "2022/dia-1/ofmi-2022-chemsificacion"
