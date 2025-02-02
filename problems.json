@@ -1,4 +1,9 @@
 {
+  "contests": [
+    {
+      "path": "2024/dia-1"
+    }
+  ],
   "problems": [
     {
       "path": "2022/dia-1/ofmi-2022-chemsificacion"
@@ -155,6 +160,18 @@
     },
     {
       "path": "2023.5/selectivo-dia-3/selectivo-egoi-2024-flipamat"
+    },
+    {
+      "path": "2024/dia-1/ofmi-2024-hormiguitas"
+    },
+    {
+      "path": "2024/dia-1/ofmi-2024-turix"
+    },
+    {
+      "path": "2024/dia-1/ofmi-2024-mosca"
+    },
+    {
+      "path": "2024/dia-1/ofmi-2024-tulipanes"
     }
   ]
 }
