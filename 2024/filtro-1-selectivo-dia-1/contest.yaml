@@ -1,0 +1,51 @@
+title: 4a OFMI Primer Filtro Selectivo día 1
+alias: 4AOFMISEL1DIA1
+# 12 de abril, 13:00 horas en timezone CDMX
+start_time: "2025-04-12T19:00:00Z"
+# 12 de abril, 16:00 horas en timezone CDMX
+finish_time: "2025-04-12T22:00:00Z"
+problems:
+  - alias: "selectivo-egoi-2025-ruleta"
+  - alias: "selectivo-egoi-2025-emboscada"
+contestants:
+  groups:
+    - "4AOFMISEL1"
+admins:
+  groups:
+    - "ofmi-2024"
+description: |
+  4a OFMI Primer Filtro Selectivo Día 1
+
+  Aquí puedes consultar la referencia de C++ https://es.cppreference.com/w/P%C3%A1gina_principal
+
+  Aquí un glosario con algunos términos comunes https://omegaup.com/docs/Glosario%20OFMI.pdf
+
+  Podrás enviar preguntas durante el examen a través del sistema de evaluación. A cada pregunta que mandes, el Comité Técnico te contestará con alguna de las siguientes opciones:
+
+  a) Sí.
+
+  b) No.
+
+  c) Sin comentarios (indica que no es posible contestar lo que pides ya que revelaría información que tú mismo debes notar).
+
+  d) Algún texto que te dé una explicación sobre tu pregunta (en caso de ser posible).
+
+  Te recomendamos formular tus preguntas de tal manera que su respuesta sea un Sí o un No. La respuesta a tu pregunta puede tardar un poco en llegar. No te preocupes, se te responderá. Continúa trabajando en tu examen mientras llega tu respuesta.
+
+  El sistema de clarificaciones está pensado para resolver las dudas que puedan surgirte acerca del examen. Si abusas del sistema de clarificaciones, podrías quedar descalificado de la competencia.
+  
+  Los problemas están ordenados de menor a mayor dificultad, según la percepción del Comité Científico.
+misc:
+  admission_mode: "private"
+  feedback: "detailed"
+  languages: "cpp11-clang,cpp11-gcc,cpp17-clang,cpp17-gcc,cpp20-clang,cpp20-gcc"
+  penalty:
+    type: "none"
+    calc_policy: "sum"
+    time: 0
+    points_decay_factor: 0
+  requests_user_information: "no"
+  score_mode: "partial"
+  scoreboard: 0
+  show_scoreboard_after: false
+  submissions_gap: 60
