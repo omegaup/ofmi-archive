@@ -1,0 +1,46 @@
+{
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100,
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/solutionB.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/sub1.cpp",
+      "verdict": "TLE",
+      "score_range": [0.17, 0.17]
+    },
+    {
+      "filename": "../solutions/sub2.cpp",
+      "verdict": "PA",
+      "score_range": [0.23, 0.23]
+    },
+    {
+      "filename": "../solutions/sub3.cpp",
+      "verdict": "PA",
+      "score_range": [0.29, 0.29]
+    },
+    {
+      "filename": "../solutions/sub3_lenta.cpp",
+      "verdict": "PA",
+      "score_range": [0.29, 0.29]
+    },
+    {
+      "filename": "../solutions/sample1.cpp",
+      "verdict": "WA",
+      "score_range": [0, 0]
+    },
+    {
+      "filename": "../solutions/sample2.cpp",
+      "verdict": "WA",
+      "score_range": [0, 0]
+    }
+  ]
+}
