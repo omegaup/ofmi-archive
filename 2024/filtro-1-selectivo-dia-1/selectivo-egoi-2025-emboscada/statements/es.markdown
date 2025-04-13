@@ -66,5 +66,3 @@ El único hangar tarda $580,973,130$ minutos en inspeccionar una aeronave. La ae
   - Sin restricciones adicionales.
 
 **Nota:** Cada subtarea tiene todos sus casos agrupados.
-
-[1]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=

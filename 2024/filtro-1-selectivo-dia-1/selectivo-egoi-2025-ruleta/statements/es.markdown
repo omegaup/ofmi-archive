@@ -61,5 +61,3 @@ Si decide moverse más, perdería porque acumularía $3$ _sigue intentandos_.
   - Sin restricciones adicionales.
 
 **Nota:** Cada subtarea tiene todos sus casos agrupados.
-
-[1]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=
