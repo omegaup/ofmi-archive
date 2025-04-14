@@ -1,0 +1,42 @@
+// Sub1: Para cada posible rango, calcular si hay mayoria en O(n).
+
+#include <iostream>
+#include <vector>
+
+int main() {
+  std::cin.tie(0);
+  std::ios_base::sync_with_stdio(0);
+
+  int n, k;
+  std::cin >> n >> k;
+
+  std::vector<int> T(n);
+  for (int i = 0; i < n; i++) {
+    std::cin >> T[i];
+  }
+
+  int ans = 0, inicio = 0, fin = 0;
+  for (int i = 0; i < n; i++) {
+    for (int j = i; j < n; j++) {
+      int escuadron = 0;
+      for (int p = i; p <= j; p++) {
+        if (T[p] >= k) {
+          escuadron++;
+        }
+      }
+
+      if (escuadron > (j - i + 1) / 2 && j - i + 1 > ans) {
+        ans = j - i + 1;
+        inicio = i + 1;
+        fin = j + 1;
+      }
+    }
+  }
+
+  if (ans == 0) {
+    std::cout << "-1\n";
+  } else {
+    std::cout << inicio << " " << fin << "\n";
+  }
+  return 0;
+}
