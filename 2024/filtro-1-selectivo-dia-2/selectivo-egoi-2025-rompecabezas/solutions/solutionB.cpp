@@ -25,6 +25,7 @@ int main() {
       if (ri > q) {
         continue;
       }
+
       int actual = conteo[ri];
       auto it = rompecabezas.lower_bound({actual, ri});
       rompecabezas.erase(it);
