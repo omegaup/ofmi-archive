@@ -18,6 +18,7 @@ int main() {
 
   std::vector<int> pref(n + 1);
   std::unordered_map<int, int> aparicion;
+
   int ans = -1, inicio = 0, fin = 0;
   pref[0] = T[0];
   aparicion[T[0]] = 0;
