@@ -2,6 +2,18 @@
   "contests": [
     {
       "path": "2024/dia-1"
+    },
+    {
+      "path": "2024/dia-2"
+    },
+    {
+      "path": "2024/filtro-1-selectivo-dia-1"
+    },
+    {
+      "path": "2024/filtro-1-selectivo-dia-2"
+    },
+    {
+      "path": "2024/filtro-2-selectivo-dia-1"
     }
   ],
   "problems": [
@@ -196,6 +208,15 @@
     },
     {
       "path": "2024/filtro-1-selectivo-dia-2/selectivo-egoi-2025-rompecabezas"
+    },
+    {
+      "path": "2024/filtro-2-selectivo-dia-1/selectivo-egoi-2025-aeropuerto"
+    },
+    {
+      "path": "2024/filtro-2-selectivo-dia-1/selectivo-egoi-2025-cubetas"
+    },
+    {
+      "path": "2024/filtro-2-selectivo-dia-1/selectivo-egoi-2025-eventos"
     }
   ]
 }

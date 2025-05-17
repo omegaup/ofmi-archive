@@ -1,0 +1,25 @@
+#include <iostream>
+#include <map>
+
+int main() {
+  std::cin.tie(0);
+  std::ios_base::sync_with_stdio(0);
+ 
+  int n;
+  std::cin >> n;
+
+  std::map<int, int> cubeta;
+  for(int i = 0; i < n; i++){
+    int x;
+    std::cin >> x;
+    cubeta[x]++;
+  }
+    
+  int ans = 0;
+  for (auto actual : cubeta) {
+    int siguiente = cubeta.contains(actual.first+1) ? cubeta[actual.first + 1] : 0;
+    int apariciones = actual.second;
+    ans += apariciones - std::min(apariciones, siguiente);
+  }
+  std::cout << ans << "\n";
+}
