@@ -49,4 +49,3 @@ Ninguna cubeta se puede apilar porque la diferencia entre sus tamaños es más d
   - Sin restricciones adicionales.
 
 **Nota:** Cada subtarea tiene todos sus casos agrupados.
-

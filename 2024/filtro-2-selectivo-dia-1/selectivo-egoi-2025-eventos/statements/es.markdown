@@ -56,4 +56,3 @@ En cambio, si Andrea decide **no** ir al primer evento, tendría tiempo de sobra
   - Sin restricciones adicionales.
 
 **Nota:** Cada subtarea tiene todos sus casos agrupados.
-
