@@ -1,6 +1,7 @@
 #include <iostream>
 
 const long long MAX_COSTO = 5e7;
+
 std::pair<int, int> arr[20002];
 int n;
 long long dp[2][2002][2];
