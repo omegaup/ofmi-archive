@@ -14,6 +14,9 @@
     },
     {
       "path": "2024/filtro-2-selectivo-dia-1"
+    },
+    {
+      "path": "2024/filtro-2-selectivo-dia-2"
     }
   ],
   "problems": [
@@ -217,6 +220,15 @@
     },
     {
       "path": "2024/filtro-2-selectivo-dia-1/selectivo-egoi-2025-eventos"
+    },
+    {
+      "path": "2024/filtro-2-selectivo-dia-2/selectivo-egoi-2025-espias"
+    },
+    {
+      "path": "2024/filtro-2-selectivo-dia-2/selectivo-egoi-2025-lorena"
+    },
+    {
+      "path": "2024/filtro-2-selectivo-dia-2/selectivo-egoi-2025-michititlan"
     }
   ]
 }

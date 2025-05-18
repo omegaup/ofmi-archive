@@ -1,0 +1,7 @@
+interface Main {
+    [NoReturn] int pregunta(int posicion);
+};
+
+interface placeholder {
+    int encuentra(int x, int n);
+};
