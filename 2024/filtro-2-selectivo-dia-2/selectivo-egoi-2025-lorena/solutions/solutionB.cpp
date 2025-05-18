@@ -27,8 +27,8 @@ int encuentra(int x, int n) {
     ret = false;
     factor = -1;
   }
-  // Si no: Estructura <<<=>>><<<
 
+  // Si no: Estructura <<<=>>><<<
   int v;
   while (ini != fin) {
     mid = (ini + fin) / 2;
