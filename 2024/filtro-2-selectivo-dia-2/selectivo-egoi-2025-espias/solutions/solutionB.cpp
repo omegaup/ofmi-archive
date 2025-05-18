@@ -75,9 +75,7 @@ int main() {
   std::cin >> n;
 
   for (int i = 1; i <= n; i++) {
-    int espia;
-    std::cin >> espia;
-    voyA[i] = espia;
+    std::cin >> voyA[i];
   }
 
   for (int i = 1; i <= n; i++) {
