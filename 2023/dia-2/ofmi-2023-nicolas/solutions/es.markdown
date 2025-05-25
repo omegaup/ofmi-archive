@@ -2,7 +2,7 @@
 
 ## Subtarea 1 ($L = 1$).
 
-Para esta subtarea, debemos observar que dada una velocidad $X$, podemos calcular su posición $p$ en el tiempo $t$ con $p = X \mdot t$.
+Para esta subtarea, debemos observar que dada una velocidad $X$, podemos calcular su posición $p$ en el tiempo $t$ con $p = X \dot{t}$.
 
 Entonces podemos recorrer las velocidades $X$ y tomar una foto en $p$. Si Nicolás está ahí, significa que escogimos una $X$ correcta.
 
@@ -26,7 +26,7 @@ Similar a la subtarea anterior, podemos calcular dónde está la cabeza de Nicol
 
 ## Subtarea 3
 
-Combinando las soluciones a las subtareas anteriores podemos encontrar la cola (subtarea 1). Ahora tenemos el mismo problema que en la subtarea 2 con la diferencia de que el tiempo no inicia en $0$ (aunque no nos importa) y tenemos que añadir $X$ (que ahora conocemos) a nuestra formula: $p = X \mdot t + L - 1$.
+Combinando las soluciones a las subtareas anteriores podemos encontrar la cola (subtarea 1). Ahora tenemos el mismo problema que en la subtarea 2 con la diferencia de que el tiempo no inicia en $0$ (aunque no nos importa) y tenemos que añadir $X$ (que ahora conocemos) a nuestra formula: $p = X \dot{t} + L - 1$.
 
 <details><summary>Solución subtarea 3</summary>
 
