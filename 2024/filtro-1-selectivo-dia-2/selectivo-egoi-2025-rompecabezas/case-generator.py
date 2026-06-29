@@ -5,7 +5,8 @@ import random
 from collections import Counter
 
 
-sample_case_names = ["sub1.sample", "sub2.sample", "sub3.extra", "sub4.extra"]
+sample_case_names = ["sub1.sample", "sub1.extra1", "sub2.sample", "sub2.extra1",
+                     "sub3.extra1", "sub4.extra1", "sub4.extra2"]
 case_count = [10, 5, 10, 15]
 case_scores = [17, 23, 29, 31]
 subtasks = 4
