@@ -1,0 +1,54 @@
+title: Olimpiada Femenil Mexicana de Informática 2026
+alias: ofmi-2026
+# 27 de junio, 10:00 horas en timezone CDMX
+start_time: "2026-06-27T16:00:00Z"
+# 27 de junio, 14:00 horas en timezone CDMX
+finish_time: "2026-06-27T20:00:00Z"
+problems:
+  - alias: "ofmi-2026-misiones"
+  - alias: "ofmi-2026-robot"
+  - alias: "ofmi-2026-asteroides"
+  - alias: "ofmi-2026-defensa"
+  - alias: "ofmi-2026-constelaciones"
+admins:
+  groups:
+    - "ofmi-2026"
+contestants:
+  groups:
+    - "OFMI2026"
+description: |
+  Los problemas están ordenados de menor a mayor dificultad, según la percepción del Comité Científico. Sin embargo, algunas subtareas de los problemas más difíciles pueden resultar más accesibles que las soluciones parciales de otros problemas, por lo que te recomendamos intentar resolver subtareas para todos los problemas.
+
+  Para programar y depurar tus soluciones, puedes usar la aplicación Code::Blocks en tu computadora o un IDE en línea, como [USACO IDE](https://ide.usaco.guide) u [OnlineGDB](https://www.onlinegdb.com).
+
+  Aquí puedes consultar la referencia de C++: https://es.cppreference.com.
+
+  Aquí un glosario con algunos términos comunes: [Glosario de la OFMI](https://omegaup.com/docs/Glosario%20OFMI.pdf).
+
+  Podrás enviar preguntas durante el examen a través del sistema de evaluación. A cada pregunta que mandes, el Comité Científico te contestará con alguna de las siguientes opciones:
+
+  a) Sí.
+
+  b) No.
+
+  c) Sin comentarios (indica que no es posible contestar lo que pides ya que revelaría información que tú mismo debes notar).
+
+  d) Algún texto que te dé una explicación sobre tu pregunta (en caso de ser posible).
+
+  Te recomendamos formular tus preguntas de tal manera que su respuesta sea un Sí o un No. La respuesta a tu pregunta puede tardar un poco en llegar. No te preocupes, se te responderá. Continúa trabajando en tu examen mientras llega tu respuesta.
+
+  El sistema de clarificaciones está pensado para resolver las dudas que puedan surgirte acerca del examen. Si abusas del sistema de clarificaciones, podrías quedar descalificade de la competencia.
+misc:
+  admission_mode: "private"
+  feedback: "detailed"
+  languages: "cpp20-gcc,cpp20-clang"
+  penalty:
+    type: "none"
+    calc_policy: "sum"
+    time: 0
+    points_decay_factor: 0
+  requests_user_information: "no"
+  score_mode: "partial"
+  scoreboard: 0
+  show_scoreboard_after: false
+  submissions_gap: 60
