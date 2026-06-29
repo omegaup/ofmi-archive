@@ -17,6 +17,9 @@
     },
     {
       "path": "2024/filtro-2-selectivo-dia-2"
+    },
+    {
+      "path": "2026/ofmi-2026"
     }
   ],
   "problems": [
@@ -229,6 +232,21 @@
     },
     {
       "path": "2024/filtro-2-selectivo-dia-2/selectivo-egoi-2025-michititlan"
+    },
+    {
+      "path": "2026/ofmi-2026/ofmi-2026-misiones"
+    },
+    {
+      "path": "2026/ofmi-2026/ofmi-2026-robot"
+    },
+    {
+      "path": "2026/ofmi-2026/ofmi-2026-asteroides"
+    },
+    {
+      "path": "2026/ofmi-2026/ofmi-2026-defensa"
+    },
+    {
+      "path": "2026/ofmi-2026/ofmi-2026-constelaciones"
     }
   ]
 }
