@@ -1,0 +1,76 @@
+{
+  "inputs": {
+    "filename": "test-validator.py"
+  },
+  "max_score": 100,
+  "solutions": [
+    {
+      "filename": "../solutions/solution.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/100B.cpp",
+      "verdict": "AC"
+    },
+    {
+      "filename": "../solutions/chafa_cero.cpp",
+      "verdict": "PA",
+      "score_range": [0.05, 0.05]
+    },
+    {
+      "filename": "../solutions/chafa_no_else.cpp",
+      "verdict": "PA",
+      "score_range": [0.65, 0.65]
+    },
+    {
+      "filename": "../solutions/chafa_a.cpp",
+      "verdict": "PA",
+      "score_range": [0.25, 0.45]
+    },
+    {
+      "filename": "../solutions/chafa_b.cpp",
+      "verdict": "PA",
+      "score_range": [0.25, 0.45]
+    },
+    {
+      "filename": "../solutions/chafa_c.cpp",
+      "verdict": "PA",
+      "score_range": [0.25, 0.45]
+    },
+    {
+      "filename": "../solutions/chafa_d.cpp",
+      "verdict": "PA",
+      "score_range": [0.25, 0.45]
+    },
+    {
+      "filename": "../solutions/chafa_min_ab.cpp",
+      "verdict": "PA",
+      "score_range": [0.5, 0.7]
+    },
+    {
+      "filename": "../solutions/chafa_min_ac.cpp",
+      "verdict": "PA",
+      "score_range": [0.5, 0.7]
+    },
+    {
+      "filename": "../solutions/chafa_min_ad.cpp",
+      "verdict": "PA",
+      "score_range": [0.5, 0.7]
+    },
+    {
+      "filename": "../solutions/chafa_min_bc.cpp",
+      "verdict": "PA",
+      "score_range": [0.5, 0.7]
+    },
+    {
+      "filename": "../solutions/chafa_min_bd.cpp",
+      "verdict": "PA",
+      "score_range": [0.5, 0.7]
+    },
+    {
+      "filename": "../solutions/chafa_min_cd.cpp",
+      "verdict": "PA",
+      "score_range": [0.5, 0.7]
+    }
+  ]
+}
