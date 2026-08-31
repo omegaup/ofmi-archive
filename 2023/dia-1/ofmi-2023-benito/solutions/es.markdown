@@ -62,7 +62,7 @@ Con un doble `for` podemos checar si es una matriz espiral de adentro hacia afue
 
 </details>
 
-## Subtarea 4. (Matrices de afuera hacia adentro)
+## Subtarea 4. (Matrices de adentro hacia afuera)
 
 Para esta subtarea podemos hacer las mismas observaciones que en la subtarea 3, solo que la distancia hacia el extremo más cercano no nos indica el número de la casilla, nos indica cuánto habría que restarle a $(n + 1) / 2$ para tener el número correcto de dicha posición.
 
@@ -72,7 +72,7 @@ Para esta subtarea podemos hacer las mismas observaciones que en la subtarea 3, 
 
 </details>
 
-## Subtarea 5
+## Subtarea 5.
 
 Podemos unir las soluciones de las últimas dos subtareas para tener la solución general.
 
